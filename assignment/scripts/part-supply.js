@@ -54,9 +54,9 @@ for (let i = 0; i < supplyChanges.length; i++) {
   }
 }
 
-console.log(positives); 
-console.log(negatives);
-console.log(zeroes);
+console.log('Positives:', positives); 
+console.log('Negatives:', negatives);
+console.log('Zeroes:', zeroes);
 
 
 
@@ -77,9 +77,9 @@ for (i of supplyChanges) {
   }
 }
 
-console.log(stretchPositives);
-console.log(stretchNegatives);
-console.log(stretchZeroes);
+console.log('Stretch Positives:', stretchPositives);
+console.log('Stretch Negatives:', stretchNegatives);
+console.log('Stretch Zeroes:', stretchZeroes);
 
 
 
@@ -109,7 +109,7 @@ console.log(totalParts);
 console.log('9. Filling boxes with a "while" loop');
 let parts = 572, boxesFilled = 0;
 
-while (parts > 7) {
+while (parts >= 7) {
   parts -= 7;
   boxesFilled++;
 }
